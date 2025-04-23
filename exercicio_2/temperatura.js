@@ -11,6 +11,9 @@ let valor = readline.question("Você gostaria de converter celcius para farehein
     return valor
 });
 
+let teste = readline.prompt("teste");
+
+console.log("teste")
 
 readline.question(`coloque um valor em ${valor}, para converter :`, (temperatura) => {
     let temperaturas = parseFloat(temperatura)
